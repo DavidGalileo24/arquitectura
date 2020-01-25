@@ -20,7 +20,7 @@
 	<link rel="stylesheet" href="recursos/CSS/magic/dist/magic.css">
 </head>
 <body>
-	<div class="container-fluid nav1">
+	<div class="container-fluid nav1 sticky-top">
 		<div class="row">
 			<div class="col-md-9">
 				<h4><i class="fas fa-bars burguer"></i>  <strong>Arch</strong>Studio</h4>
@@ -34,51 +34,49 @@
 			<div class="col-md-3 card1">
 				<img src="recursos/images/img1.jpg" alt="" class="imagenes">
 				
-				<a class="btn text-center btn-block enlace"  id="magic">
+				<a class="btn text-center btn-block enlace"  id="animacion1">
 					<h4>Madhouse</h4>
 					<h6>ArchStudio</h6>
-					<button id="mostrar" class="btn btn-sm share">
+					<button id="mostrar1" onclick="Animacion1();" class="btn btn-sm share">
 						<i class="fas fa-share-alt" id="share"></i>
 					</button>
 					
 				</a>
-			</div><br>
+			</div>
 			<div class="col-md-3 card1">
 				<img src="recursos/images/img2.jpg" alt="" class="imagenes">
-				<a class="btn text-center btn-block enlace" id="animacion">
+				<a class="btn text-center btn-block enlace" id="animacion2">
 					<h4>Bones</h4>
 					<h6>ArchStudio</h6>
-					<button id="mostrar" class="btn btn-sm share">
+					<button id="mostrar" onclick="Animacion2();" class="btn btn-sm share">
 						<i class="fas fa-share-alt share" id="share"></i>
 					</button>
 					
 				</a>
-			</div><br>
+			</div>
 			<div class="col-md-3 card1">
 				<img src="recursos/images/img3.jpg" alt="" class="imagenes">
-				<a class="btn text-center btn-block enlace" id="animacion">
+				<a class="btn text-center btn-block enlace" id="animacion3">
 					<h4>A-1 Pictures</h4>
 					<h6>ArchStudio</h6>	
-					<button id="mostrar" class="btn btn-sm share">
+					<button id="mostrar" onclick="Animacion3();" class="btn btn-sm share">
 						<i class="fas fa-share-alt share" id="share"></i>
 					</button>
 				</a>
 				
-			</div><br>
+			</div>
 			<div class="col-md-3 card1">
 				<img src="recursos/images/img7.jpg" alt="" class="imagenes">
 				
-				<a class="btn text-center btn-block enlace" id="animacion">
+				<a class="btn text-center btn-block enlace" id="animacion4">
 					<h4>JC Staff</h4>
 					<h6>ArchStudio</h6>
-					<button id="mostrar" class="btn btn-sm share">
+					<button id="mostrar" onclick="Animacion4();" class="btn btn-sm share">
 						<i class="fas fa-share-alt share" id="share"></i>
 					</button>	
 
 				</a>
-
-
-			</div><br>
+			</div>
 			<!--<div class="col-md-2 card">
 				<img src="recursos/images/img5.jpg" alt="" class="imagenes">
 				<h4 class="text-center">Toei</h4>
@@ -94,14 +92,15 @@
 	</div>
 	<div class="container-fluid footer">
 		<div class="row">
-			<div class="col-md-11">
+			<div class="col-md-5 col-sm-12 text-center">
 				<h6 class="moon"><strong>NEWS</strong></h6>
 				<h6 class="moon">BACKBONE</h6> 
 				<h6 class="moon">VANILLA</h6>
 				<h6 class="moon">REACT</h6>  
 				<h6 class="moon">ANGULAR</h6>
 			</div>
-			<div class="col-md-1">
+			<div class="col-md-6"></div>
+			<div class="col-md-1 col-sm-12 text-center">
 				<i class="fab fa-instagram  icons2"></i>
 				<i class="fab fa-facebook-square icons2"></i>
 			</div>
@@ -110,10 +109,22 @@
 
 	
 	<script>
-		$('#magic').click(function(){
-			$(this).addClass('openDownLeft');
-			console.log('hover');
-		});
+		function Animacion1(){
+			document.getElementById('animacion1').style="display: none";
+		}
+
+		function Animacion2(){
+			document.getElementById('animacion2').style="display: none";
+		}
+
+		function Animacion3(){
+			document.getElementById('animacion3').style="display: none";
+		}
+
+		function Animacion4(){
+			document.getElementById('animacion4').style="display: none";
+		}
+		
 	</script>
 
 </body>
