@@ -32,18 +32,15 @@ body{
 .card1{
 	transition: all;
 	transition-duration: .3s;
-	margin-top: 5vh;
-	margin-bottom: 5vh;
 }
 .card1:hover{
-	border-radius: 5px;
 	padding: 1px;
 }
 
 .section1{
 	height: 80vh;
 	padding: 25px 0;
-	background: #fff7f7;
+	background: #eeeeee;
 	font-family: 'Poiret One', cursive;
 	
 }
@@ -66,24 +63,31 @@ body{
 	font-size: 1.5em;
 	padding: 25px 0;
 }
-.share{
-	float: right;
+.iconshare{
+	color: #1089ff;
+	font-size: 1.1em;
 }
 .card1 a{
 	background: white;
 	color: black;
-	padding: 20px;
+	padding: 15px;
 }
 
-.share:hover{
-	display: block;
-}
 .enlace{
 	height: 15vh;
+	overflow: hidden;
 }
-
-
-
+.more{
+	font-size: 1.8em;
+	margin: 2px;
+	text-align: center;
+	color: #23374d;
+}
+.volver{
+	color: #1089ff;
+	float: right;
+	font-size: 1.4em;
+}
 
 
 
