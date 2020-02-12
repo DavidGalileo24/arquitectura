@@ -29,6 +29,8 @@ function Animacion4(){
 
 	const element =  document.getElementById('boggart4')
 	element.classList.add('animated', 'flipInY');
+	document.getElementById('boggart4').style="transition: all";
+	document.getElementById('boggart4').style="transition-duration: .3s";
 }
 
 function volver1(){
@@ -53,8 +55,6 @@ function volver3(){
 
 	const element =  document.getElementById('animacion3')
 	element.classList.add('animated', 'flipInY');
-	element.getElementById('animacion3').style="transition: all";
-	element.getElementById('animacion3').style="transition-duration: 3s";
 }
 
 function volver4(){

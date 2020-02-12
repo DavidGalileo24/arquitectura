@@ -21,20 +21,19 @@ body{
 
 .imagenes{
 	width: 100%;
-	height: 55vh;
+	height: 50vh;
 	display: block;
 	margin: 0 auto;
+	transition: all;
+	transition-duration: .3s;
 	
-}
-.imagenes:hover{
-	color: gray;
 }
 .card1{
 	transition: all;
 	transition-duration: .3s;
 }
-.card1:hover{
-	padding: 1px;
+.imagenes:hover{
+	padding: 5px;
 }
 
 .section1{
@@ -74,21 +73,27 @@ body{
 }
 
 .enlace{
-	height: 15vh;
+	height: 18vh;
 	overflow: hidden;
 }
 .more{
 	font-size: 1.8em;
-	margin: 2px;
+	margin: 5px;
 	text-align: center;
-	color: #23374d;
+	color: gray;
 }
-.volver{
+.volver2{
 	color: #1089ff;
 	float: right;
 	font-size: 1.4em;
 }
 
+.boton{
+	float: right;
+}
+.volver{
+	float: right;
+}
 
 
 
